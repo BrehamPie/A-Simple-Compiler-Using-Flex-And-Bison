@@ -1,0 +1,86 @@
+root:
+	#Variable Handling#
+	int a = 5;
+	int b = 30;
+	real c = a+b*2+log(56);
+	real xy = 5+6+-6;
+	string str;
+	read<- str;
+	int $$ara = {1,2,3,4,5};
+	$$ara[4]=34;
+	see->a,b,c,xy,str,$$ara;
+	int factorial = (5+3)! ;
+	see ->factorial;
+	# Array Operation #
+	$$ara.push(1);
+	$$ara.push(2);
+	$$ara.sort;
+	see->$$ara;
+	$$ara.pop();
+	string $$ara2 = {"abc","def","ghi"};
+	see->$$ara,$$ara2;
+	#from-to loop#
+	from 5 to 8 by 1:
+		1+2+3;
+	end
+	int a = 5;
+	#while loop#
+	while a-->0:
+		2*4/3;
+	end
+	#repeat-while#
+	a=12;
+	repeat:
+		12*12
+	end
+	while a++<15 ;
+
+	#If#
+	int p = 25;
+	if(p>20):
+		1*2*3;
+	end
+	#If else#
+	int p = 25;
+	if(p>30):
+		1*2*3;
+	end
+	else:
+		2*3*4;
+	end
+	#if-elif-else#
+	if p>20 AND p<25:
+		1;
+	end
+	elif p>30 :
+		2;
+	end
+	elif p>20 OR p<10:
+		3;
+	end
+	else:
+		4;
+	end
+
+	#Choices(switch-case)#
+	choices for p:
+	option 5:
+		1;
+	end
+	option 10:
+		2;
+	end
+	option 25:
+		3;
+	end
+	none:
+		4;
+	end
+	end
+	#Modules#
+	module myFunction(int a,int b):
+		#inside Function#
+	end
+	call myFunction(a,p);
+	call myFunction(a,c);
+end
