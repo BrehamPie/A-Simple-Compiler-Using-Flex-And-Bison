@@ -1,2 +1,9 @@
-# A-Simple-Compiler-Using-Flex-And-Bison
-Compiler Project-3212
+# Simple Compiler
+A simple compiler using Flex and Bison
+
+# Prerequisite
+gcc
+flex
+bison
+
+
